@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Merge Sort Visualizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>Merge Sort Visualizer</h1>
+
+        <div class="controls">
+
+            <input 
+                type="text"
+                id="user-input"
+                placeholder="Enter numbers like 5,3,8,1"
+            >
+
+            <button onclick="setUserArray()">Set Array</button>
+            <button onclick="generateRandomArray()">Random Array</button>
+            <button onclick="startMergeSort()">Start Sorting</button>
+
+        </div>
+
+        <div class="info">
+
+            <div class="card">
+                <h2>Comparisons</h2>
+                <p id="comparisons">0</p>
+            </div>
+
+            <div class="card">
+                <h2>Merges</h2>
+                <p id="merges">0</p>
+            </div>
+
+            <div class="card">
+                <h2>Status</h2>
+                <p id="status">Ready</p>
+            </div>
+
+        </div>
+
+        <div id="array-container"></div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
