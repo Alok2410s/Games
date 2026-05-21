@@ -34,6 +34,7 @@ h1 {
     font-size: 44px;
     font-weight: 800;
     background: linear-gradient(135deg, #22d3ee, #818cf8);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     letter-spacing: -0.5px;
@@ -133,6 +134,7 @@ button:active {
 .card p {
     font-size: 32px;
     background: linear-gradient(135deg, #22d3ee, #38bdf8);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: 700;
